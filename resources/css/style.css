@@ -15,9 +15,10 @@ header {
     border-bottom: 1px solid seashell;
     z-index: 1;
     text-align: center;
+    padding-left: 10px;
 }
 
-.head-container {
+.container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -42,4 +43,49 @@ nav span {
 
 span a {
     color: seashell;
+}
+.main {
+    padding-top: 69px;
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
+}
+
+.mission {
+    height: 700px;
+    background-image: url(../img/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 70px;
+}
+
+.text {
+    width: 100%;
+    background-color: black;
+    margin: auto;
+    
+}
+
+#tea {
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.teas {
+    padding: 5px;
+}
+
+.teas img {
+     height: 200px;
+    display: block;
+    margin: 10px;
+}
+
+.teas span {
+    display: block;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
 }
